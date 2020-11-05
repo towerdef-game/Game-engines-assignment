@@ -1,3 +1,8 @@
+Name: John Heaphey
+Student Number D19124451
+Class group: DT508
+
+
 # Game-engines-assignment
 My game is a first-person shooter wave defense game. set in a randomly generated city. The player will have to defend themselves from waves of enemies that will attempt to kill the player. Unlike other wave-based games my game will feature time dilation where time will only move when the player is moving like the game superhot. The game will be set in a cyberpunk style.
 # Implamentation
