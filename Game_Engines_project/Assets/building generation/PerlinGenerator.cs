@@ -55,8 +55,8 @@ public class PerlinGenerator : MonoBehaviour
             }
         }
 
-        perlinTexture.Apply();
-        visualizationUI.texture = perlinTexture;
+      //  perlinTexture.Apply();
+     //   visualizationUI.texture = perlinTexture;
     }
 
     Color SampleNoise(int x, int y)
