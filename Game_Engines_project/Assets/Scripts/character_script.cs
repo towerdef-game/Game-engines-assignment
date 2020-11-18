@@ -9,6 +9,10 @@ public class character_script : MonoBehaviour
     public float jumpHeight = 1.0F;
     public float gravity = 20.0f;
     public Camera playerCamera;
+    float rotationX = 0;
+    public float lookSpeed = 2.0f;
+    public float lookXLimit = 45.0f;
+    public float RotateSpeed = 30f;
     CharacterController characterController;
     Vector3 direction = Vector3.zero;
     
@@ -32,10 +36,7 @@ public class character_script : MonoBehaviour
             direction *= walkingSpeed;
 
             characterController.Move(direction * Time.deltaTime);
-            if (Input.GetKey(KeyCode.Q))
-                transform.Rotate(-Vector3.up * roatateSpeed * Time.deltaTime);
-            else if (Input.GetKey(KeyCode.E))
-                transform.Rotate(Vector3.up * roatateSpeed * Time.deltaTime);
+         
             if (Input.GetButton("Jump"))
                 direction.y = jumpHeight;
         }
@@ -43,6 +44,14 @@ public class character_script : MonoBehaviour
         direction.y -= gravity * Time.deltaTime;
         characterController.Move(direction * Time.deltaTime);
 
+        // Player and Camera rotation
+          if (canmove)
+         {
+             rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
+             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
+            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+           transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+         }
 
     }
 }

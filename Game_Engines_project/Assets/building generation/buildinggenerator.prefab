@@ -45,10 +45,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Max_amount_of_peices: 10
   min_variation_of_pieces: 1
-  Max_variation_of_pieces: 1
+  Max_variation_of_pieces: 0
   baseParts:
-  - {fileID: 68773826550598772, guid: 07dfd9077723b7a47a9f0d6915b66b05, type: 3}
+  - {fileID: 843838414395377647, guid: 6efd2581282e7d34d8aa1d0b6ba8c49d, type: 3}
   middle_pieces:
-  - {fileID: 712786523060183253, guid: 14496526357656342b36980f11be8256, type: 3}
+  - {fileID: 7180226575554856106, guid: 2ec471c2a157b24488df4c6a8379f242, type: 3}
+  - {fileID: 7065600344117513650, guid: bf368e0eea9ce854aa7fcafebb0a5056, type: 3}
   Roofs:
-  - {fileID: 7808486438946412483, guid: 156a24dfcf4e22a46ba700df875e9be5, type: 3}
+  - {fileID: 3151960291633537134, guid: d33de224f485a9e4e9657914b1491bd4, type: 3}
+  - {fileID: 8219422757424731886, guid: c1a0d6aab9079e5469b085e22fcae310, type: 3}
+  - {fileID: 7258158141421312536, guid: 18f04b18971af894fbc3304232ddfdeb, type: 3}

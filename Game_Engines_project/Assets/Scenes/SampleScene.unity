@@ -370,7 +370,7 @@ GameObject:
   - component: {fileID: 1329078444}
   - component: {fileID: 1329078445}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Grid spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329078443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.99, y: 0.5, z: 0}
+  m_LocalPosition: {x: -0.463, y: 0.5, z: -0.114}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2115479409}
@@ -406,7 +406,7 @@ MonoBehaviour:
   Buildings_on_grid_Z: 4
   prefabToSpawn: {fileID: 3186048705566486049, guid: 69c4016b4a693844a9214551961d51d9, type: 3}
   Gridspawnpoint: {x: 0, y: 0, z: 0}
-  Distancebetweenbuildings: 5
+  Distancebetweenbuildings: 40
 --- !u!1 &1431993599
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 1431993601}
   - component: {fileID: 1431993600}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: bilding controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -491,6 +491,9 @@ MonoBehaviour:
   jumpHeight: 5
   gravity: 20
   playerCamera: {fileID: 963194227}
+  lookSpeed: 2
+  lookXLimit: 45
+  RotateSpeed: 30
   canmove: 1
 --- !u!136 &2042130731
 CapsuleCollider:
@@ -563,7 +566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042130729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1, z: -38.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
@@ -698,8 +701,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115479404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 17.265186, y: 1, z: 13.753}
+  m_LocalPosition: {x: 2.17, y: -0, z: -4.38}
+  m_LocalScale: {x: 67.874626, y: 1, z: 84.9069}
   m_Children:
   - {fileID: 1329078444}
   m_Father: {fileID: 0}
