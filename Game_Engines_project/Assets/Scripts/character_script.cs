@@ -9,6 +9,7 @@ public class character_script : MonoBehaviour
     public float jumpHeight = 1.0F;
     public float gravity = 20.0f;
     public Camera playerCamera;
+    public static int health;
     float rotationX = 0;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
