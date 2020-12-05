@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static int Rounds = 0;
     private bool gameEnd = false;
-    public GameObject DeathUI;
-    public GameObject WinUI;
+   // public GameObject DeathUI;
+  //  public GameObject WinUI;
     // public GameObject player;
 
 
@@ -31,15 +32,15 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameEnd = true;
-        //   SceneManager.LoadScene("Lose");
-        DeathUI.SetActive(true);
+           SceneManager.LoadScene("Lose");
+      //  DeathUI.SetActive(true);
 
     }
 
     public void WinLevel()
     {
-        WinUI.SetActive(true);
-
+        //  WinUI.SetActive(true);
+        SceneManager.LoadScene("win");
     }
 }
 

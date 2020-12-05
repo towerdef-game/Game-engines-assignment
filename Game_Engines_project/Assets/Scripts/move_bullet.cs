@@ -21,10 +21,10 @@ public class move_bullet : MonoBehaviour
         if (other.gameObject.tag == "enemy")
         {
             //  other.gameObject.GetComponent<Rigidbody>
-          //  other.gameObject.GetComponent<enemy>().Health = -damage;
+            other.gameObject.GetComponent<enemyai>().Health = -damage;
             Destroy(this.gameObject);
         }
-        if (other.gameObject.tag == "building")
+        if (other.gameObject)
         {
          
             Destroy(this.gameObject);

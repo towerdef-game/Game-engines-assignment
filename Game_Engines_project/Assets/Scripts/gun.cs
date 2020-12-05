@@ -19,7 +19,7 @@ public class gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && ammo >0 )
+        if (Input.GetMouseButtonDown(0) && ammo >0 && canshoot == true )
         {
             shoot();
            // Debug.Log(ammo);
