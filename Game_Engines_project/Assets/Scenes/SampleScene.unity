@@ -609,7 +609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764293566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.22, y: 1.29, z: -33.81}
+  m_LocalPosition: {x: 101.8, y: 1.29, z: -14.1}
   m_LocalScale: {x: 0.225346, y: 0.263201, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 0}
@@ -693,6 +693,7 @@ MonoBehaviour:
   gun: {fileID: 7660185967362693088, guid: 88550db792e997b49bcb85867702ee63, type: 3}
   canshoot: 1
   rateoffire: 0
+  slowdown: 0.5
   canmove: 1
 --- !u!136 &2042130731
 CapsuleCollider:

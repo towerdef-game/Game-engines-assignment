@@ -24,7 +24,7 @@ public class character_script : MonoBehaviour
     public GameObject gun;
     public bool canshoot = true;
     public float rateoffire;
-
+    public float slowdown = 0.5f;
     [HideInInspector]
     public bool canmove = true;
     // Start is called before the first frame update
@@ -45,18 +45,31 @@ public class character_script : MonoBehaviour
             direction *= walkingSpeed;
 
             characterController.Move(direction * Time.deltaTime);
-         
+             
             if (Input.GetButton("Jump"))
                 direction.y = jumpHeight;
         }
 
         direction.y -= gravity * Time.deltaTime;
         characterController.Move(direction * Time.deltaTime);
-
-        if (Input.GetMouseButtonDown(0) && ammo >= 1 && canshoot == true)
+        Time.timeScale = slowdown; //slows down time
+        Time.fixedDeltaTime = Time.timeScale * .02f;
+        if (Input.GetAxis("Horizontal") >0)
         {
-          //  shoot();
+            Time.timeScale = 1f  ;
+        }
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            Time.timeScale = 1f ;
+        }
 
+        if (Input.GetAxis("Vertical") > 0)
+        {
+            Time.timeScale = 1f ;
+        }
+        if (Input.GetAxis("Vertical") < 0)
+        {
+            Time.timeScale = 1f;
         }
         // Player and Camera rotation
         if (canmove)
@@ -65,6 +78,7 @@ public class character_script : MonoBehaviour
              rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+            
          }
     
         
