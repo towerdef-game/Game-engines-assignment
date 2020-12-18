@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: gridlines
+  m_Shader: {fileID: -6465566751694194690, guid: 2669e36f0f8fad4489fc3b44748c3f50, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - Vector1_5C279224: 0.914
+    m_Colors:
+    - Color_2B71B8AB: {r: 0, g: 5.772549, b: 5.992157, a: 0.011764706}
+    - Vector2_E89AEF9D: {r: 20, g: 20, b: 0, a: 0}
+  m_BuildTextureStacks: []
