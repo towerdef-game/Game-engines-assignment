@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class enemyai : MonoBehaviour
 {
-    public float Health = 2f;
+    public float Health = 1f;
     public GameObject player;
     public GameObject gun;
  
@@ -46,10 +46,7 @@ public class enemyai : MonoBehaviour
         {
             character_script.health--;
         }
-        if (other.gameObject.tag == "building")
-        {
-            die();
-        }
+    
     }
 
   

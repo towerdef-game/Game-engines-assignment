@@ -27,6 +27,7 @@ public class character_script : MonoBehaviour
     public float slowdown = 0.5f;
     [HideInInspector]
     public bool canmove = true;
+    public bool canpickup = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -80,33 +81,23 @@ public class character_script : MonoBehaviour
            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
             
          }
-    
-        
-        
-     
-    }
-    void shoot()
-    {
-        Instantiate(bullet, barrel.transform.position, barrel.transform.rotation);
-        ammo -= 1;
-        canshoot = false;
-
-        StartCoroutine(FireRate());
-    }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            canpickup = true;
+        }
+        }
+  
 
      void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "gun")
+        if (other.gameObject.tag == "gun" && canpickup == true)
         {
             Destroy(other.gameObject);
         GameObject gunnner =    Instantiate<GameObject>(gun, hand.position, hand.rotation);
             gunnner.transform.parent = hand.transform;
-           
+            canpickup = false;
         }  
     }
-    IEnumerator FireRate()
-    {
-        yield return new WaitForSeconds(rateoffire);
-        canshoot = true;
-    }
+   
+  
 }

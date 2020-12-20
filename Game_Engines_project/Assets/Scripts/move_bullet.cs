@@ -23,6 +23,7 @@ public class move_bullet : MonoBehaviour
             //  other.gameObject.GetComponent<Rigidbody>
             other.gameObject.GetComponent<enemyai>().Health = -damage;
             Destroy(this.gameObject);
+            Debug.Log("hit");
         }
         if (other.gameObject)
         {

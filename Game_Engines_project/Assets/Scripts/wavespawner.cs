@@ -14,7 +14,7 @@ public class wavespawner : MonoBehaviour
     public Transform EnemySpawnPoint;
 
     public float WaitTime = 0.5f;
-  // public Text CountDownTimer;
+  
     public GameManager gameManager;
 
     public void Update()
