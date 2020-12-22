@@ -5,7 +5,7 @@ using UnityEngine;
 public class wavespawner : MonoBehaviour
 {
     public static int Enemiesalive = 0;
-    public float eny;
+ [HideInInspector]   public float eny;
     // public Transform enemyPrefab;
     public wavedetails[] waves;
     public float timeBetweenWave = 5f;
