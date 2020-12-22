@@ -1,4 +1,4 @@
-#Windows Defender
+# Windows Defender
 Name: John Heaphey
 Student Number D19124451
 Class group: DT508/TU984
@@ -10,6 +10,7 @@ Class group: DT508/TU984
 | W,A,S,D  | Movement    |
 | Left mouse | shoot when gun is equipped|
 | R | Drop gun |
+| Space Bar | Jump |
 
 The goal of the game is to survive the waves of enenmies that are coming 
 
@@ -26,11 +27,12 @@ it will set these buildings in a grid similar to what it would be like in a city
 7.any difficulty implamenting please look at the scene for how i did it.
 
 ## Audio spectrum Manager
-The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both 
-to use the audio 
+The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both to use the audio script follow the following steps 
+1. create an audio source and put in the audiospectrum script this will convert he music into readalbe data
+2. add either a audio syncscale or audiosync color
 
 # References
-
+https://www.youtube.com/embed/PzVbaaxgPco
 
 # What I am most proud of
 I am most proud of is how the way the my project looks i was trying to go for a what the inside of a computer hard drive would look like taking insperation from movies like Tron and old atari games. I am also proud of the city generation script  
