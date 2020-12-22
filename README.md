@@ -8,7 +8,7 @@ Class group: DT508/TU984
 | Controls | Description |
 |----------|-------------|
 | W,A,S,D  | Movement    |
-| Right mouse | shoot when gun is equipped|
+| Left mouse | shoot when gun is equipped|
 | R | Drop gun |
 
 The goal of the game is to survive the waves of enenmies that are coming 
