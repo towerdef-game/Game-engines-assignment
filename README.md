@@ -29,10 +29,10 @@ it will set these buildings in a grid similar to what it would be like in a city
 The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both 
 to use the audio 
 
-#References
+# References
 
 
-#What I am most proud of
+# What I am most proud of
 I am most proud of is how the way the my project looks i was trying to go for a what the inside of a computer hard drive would look like taking insperation from movies like Tron and old atari games. I am also proud of the city generation script  
 
 
