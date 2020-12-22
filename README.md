@@ -10,10 +10,11 @@ Class group: DT508/TU984
 | W,A,S,D  | Movement    |
 | Right mouse | shoot when gun is equipped|
 | R | Drop gun |
+
 The goal of the game is to survive the waves of enenmies that are coming 
 
 # How it Works 
-##city generator 
+## city generator 
 The city generator uses perlin noise to determine the height of a building, the building will then use the prefabs you have selected for the base, the first block , the middle all the rest of the blocks, and the roof the final block in the set.
 it will set these buildings in a grid similar to what it would be like in a city. 
 1. Attach the script "perlin generator" to a plane or terrain.
@@ -24,7 +25,7 @@ it will set these buildings in a grid similar to what it would be like in a city
 6. with the build with noise put in the object you want your buildings to be made of and how many objects it can be made of.
 7.any difficulty implamenting please look at the scene for how i did it.
 
-##Audio spectrum Manager
+## Audio spectrum Manager
 The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both 
 to use the audio 
 
