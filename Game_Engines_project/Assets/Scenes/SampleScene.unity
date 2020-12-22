@@ -623,20 +623,14 @@ MonoBehaviour:
   eny: 0
   waves:
   - enemy: {fileID: 6106389186373282000, guid: 5536a13dd41533e4183a391a57c0e348, type: 3}
-    amount: 3
+    amount: 2
     spawnrate: 1
   - enemy: {fileID: 6106389186373282000, guid: 5536a13dd41533e4183a391a57c0e348, type: 3}
-    amount: 3
+    amount: 4
     spawnrate: 1
   - enemy: {fileID: 6106389186373282000, guid: 5536a13dd41533e4183a391a57c0e348, type: 3}
-    amount: 3
-    spawnrate: 1
-  - enemy: {fileID: 6106389186373282000, guid: 5536a13dd41533e4183a391a57c0e348, type: 3}
-    amount: 3
-    spawnrate: 1
-  - enemy: {fileID: 6106389186373282000, guid: 5536a13dd41533e4183a391a57c0e348, type: 3}
-    amount: 3
-    spawnrate: 1
+    amount: 6
+    spawnrate: 2
   timeBetweenWave: 2
   countdown: 2
   EnemySpawnPoint: {fileID: 273134885}
@@ -797,7 +791,7 @@ Transform:
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &2042130735
 CharacterController:
@@ -971,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750643234509387270, guid: a3ed69a38b4b10f41ad47cd59c638d76, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 750643234509387270, guid: a3ed69a38b4b10f41ad47cd59c638d76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
