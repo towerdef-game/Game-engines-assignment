@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class audiosyncscale : audiosyncer
 {
+    public Vector3 beatScale;
+    public Vector3 restScale;
     private IEnumerator MoveToScale(Vector3 _target)
     {
         Vector3 _curr = transform.localScale;
@@ -29,7 +31,7 @@ public class audiosyncscale : audiosyncer
 
         if (m_isBeat) return;
 
-        transform.localScale = Vector3.Lerp(transform.localScale, restScale, restSmoothTime * Time.deltaTime);
+        transform.localScale = Vector3.Lerp(transform.localScale, restScale, resttime * Time.deltaTime);
     }
 
     public override void OnBeat()
@@ -40,7 +42,6 @@ public class audiosyncscale : audiosyncer
         StartCoroutine("MoveToScale", beatScale);
     }
 
-    public Vector3 beatScale;
-    public Vector3 restScale;
+   
 }
 

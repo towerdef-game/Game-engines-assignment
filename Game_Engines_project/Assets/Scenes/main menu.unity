@@ -338,10 +338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 43
-  timeStep: 0.15
+  threshold: 20
+  interval: 0.1
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 0.09078467, g: 1, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -357,10 +357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 40
-  timeStep: 0.15
+  threshold: 15
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &785325503
@@ -562,10 +562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 25
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 1
+  resttime: 0.3
   beatScale: {x: 80, y: 80, z: 80}
   restScale: {x: 10, y: 10, z: 10}
 --- !u!222 &855772486
@@ -646,10 +646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 65
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.5
+  resttime: 1
   beatColors:
   - {r: 0, g: 0.7772784, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -665,10 +665,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 70
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &899337782
@@ -892,10 +892,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 20
-  timeStep: 0.15
+  threshold: 25
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 0.7179265, g: 0, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -911,10 +911,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
-  timeStep: 0.15
+  threshold: 25
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &1088136529
@@ -1006,10 +1006,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 65
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.6
   timeToBeat: 0.1
-  restSmoothTime: 0.5
+  resttime: 1
   beatColors:
   - {r: 0, g: 0.7772784, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1025,10 +1025,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 70
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.6
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &1141472833
@@ -1120,10 +1120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 20
-  timeStep: 0.15
+  threshold: 25
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 0.7179265, g: 0, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1139,10 +1139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
-  timeStep: 0.15
+  threshold: 25
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &1229597347
@@ -1272,10 +1272,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 43
-  timeStep: 0.15
+  threshold: 20
+  interval: 0.1
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 0.18064928, g: 1, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1291,10 +1291,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 40
-  timeStep: 0.15
+  threshold: 15
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!1 &1318214427
@@ -1454,8 +1454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 94.2}
-  m_SizeDelta: {x: -543, y: -287.58447}
+  m_AnchoredPosition: {x: -2.0300293, y: 96.11}
+  m_SizeDelta: {x: -569.28894, y: -323.44983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321781264
 MonoBehaviour:
@@ -1785,10 +1785,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 25
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 1
+  resttime: 0.3
   beatScale: {x: 80, y: 80, z: 80}
   restScale: {x: 10, y: 10, z: 10}
 --- !u!135 &1562814622
@@ -2066,10 +2066,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 50
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.5
+  resttime: 1
   beatScale: {x: 60, y: 60, z: 60}
   restScale: {x: 10, y: 10, z: 10}
 --- !u!135 &1742364643
@@ -2204,10 +2204,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2223,10 +2223,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &1785599835
@@ -2669,10 +2669,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 30
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatColors:
   - {r: 1, g: 0, b: 0, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -2688,10 +2688,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 30
-  timeStep: 0.15
+  threshold: 35
+  interval: 0.2
   timeToBeat: 0.1
-  restSmoothTime: 0.2
+  resttime: 1
   beatScale: {x: 1, y: 2, z: 0}
   restScale: {x: 1, y: 0, z: 0}
 --- !u!114 &2074722805
@@ -2907,10 +2907,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 50
-  timeStep: 0.15
+  threshold: 65
+  interval: 0.3
   timeToBeat: 0.1
-  restSmoothTime: 0.5
+  resttime: 1
   beatScale: {x: 60, y: 60, z: 60}
   restScale: {x: 10, y: 10, z: 10}
 --- !u!135 &2114508503

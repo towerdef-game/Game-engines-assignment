@@ -6,6 +6,16 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class audiocolor : audiosyncer
 {
+    public Color[] beatColors;
+    public Color restColor;
+
+    private int m_randomIndx;
+    private Image m_img;
+
+    private void Start()
+    {
+        m_img = GetComponent<Image>();
+    }
     private IEnumerator MoveToColor(Color _target)
     {
         Color _curr = m_img.color;
@@ -38,7 +48,7 @@ public class audiocolor : audiosyncer
 
         if (m_isBeat) return;
 
-        m_img.color = Color.Lerp(m_img.color, restColor, restSmoothTime * Time.deltaTime);
+        m_img.color = Color.Lerp(m_img.color, restColor, resttime * Time.deltaTime);
     }
 
     public override void OnBeat()
@@ -51,14 +61,7 @@ public class audiocolor : audiosyncer
         StartCoroutine("MoveToColor", _c);
     }
 
-    private void Start()
-    {
-        m_img = GetComponent<Image>();
-    }
+  
 
-    public Color[] beatColors;
-    public Color restColor;
-
-    private int m_randomIndx;
-    private Image m_img;
+  
 }
