@@ -12,7 +12,7 @@ Class group: DT508/TU984
 | R | Drop gun |
 | Space Bar | Jump |
 
-The goal of the game is to survive the waves of enenmies that are coming 
+The goal of the game is to survive the waves of enemies that are coming 
 
 # How it Works 
 ## city generator 
