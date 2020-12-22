@@ -5,13 +5,14 @@ using UnityEngine;
 public class wavespawner : MonoBehaviour
 {
     public static int Enemiesalive = 0;
- [HideInInspector]   public float eny;
+    public float eny;
     // public Transform enemyPrefab;
     public wavedetails[] waves;
     public float timeBetweenWave = 5f;
     public float countdown = 5f;
     private int waveIndex = 0;
     public Transform EnemySpawnPoint;
+    public Transform EnemySpawnPoint2;
 
     public float WaitTime = 0.5f;
   
@@ -51,6 +52,7 @@ public class wavespawner : MonoBehaviour
         for (int i = 0; i < wave.amount; i++)
         {
             EnemySpawn(wave.enemy);
+            EnemySpawn2(wave.enemy);
             yield return new WaitForSeconds(1f / wave.spawnrate);
 
         }
@@ -64,6 +66,12 @@ public class wavespawner : MonoBehaviour
         Instantiate(enemy, EnemySpawnPoint.position, EnemySpawnPoint.rotation);
 
     }
+    private void EnemySpawn2(GameObject enemy)
+    {
+        Instantiate(enemy, EnemySpawnPoint2.position, EnemySpawnPoint2.rotation);
+        Enemiesalive += 1;
+    }
+
 
 
 }

@@ -10,24 +10,26 @@ public class gun : MonoBehaviour
     public bool canshoot = true;
     public float rateoffire;
     public static int ammo = 5;
+    public float an;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        ammo = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
+       
         if (Input.GetMouseButtonDown(0) && ammo > 0 && canshoot == true)
         {
             shoot();
             // Debug.Log(ammo);
         }
-        if (ammo >= 0)
+        if (ammo <= 0)
         {
-            Debug.Log("out of ammo");
+           // Debug.Log("out of ammo");
         }
         if (Input.GetKeyDown(KeyCode.R))
         {

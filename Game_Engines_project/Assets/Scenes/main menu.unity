@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 40
+  bias: 43
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -646,10 +646,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 60
+  bias: 65
   timeStep: 0.15
   timeToBeat: 0.1
-  restSmoothTime: 1
+  restSmoothTime: 0.5
   beatColors:
   - {r: 0, g: 0.7772784, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 60
+  bias: 70
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
+  bias: 20
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -1006,10 +1006,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 60
+  bias: 65
   timeStep: 0.15
   timeToBeat: 0.1
-  restSmoothTime: 1
+  restSmoothTime: 0.5
   beatColors:
   - {r: 0, g: 0.7772784, b: 1, a: 1}
   restColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 60
+  bias: 70
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -1120,7 +1120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 15
+  bias: 20
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bias: 40
+  bias: 43
   timeStep: 0.15
   timeToBeat: 0.1
   restSmoothTime: 0.2
@@ -1883,6 +1883,7 @@ GameObject:
   - component: {fileID: 1574211217}
   - component: {fileID: 1574211216}
   - component: {fileID: 1574211218}
+  - component: {fileID: 1574211219}
   m_Layer: 0
   m_Name: audio
   m_TagString: Untagged
@@ -2010,6 +2011,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb676b1272d291d4e99c11a9f6e53aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1574211219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574211215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b836be0708058142bf7d998cd4c467a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1742364640

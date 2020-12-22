@@ -9,17 +9,15 @@ public class character_script : MonoBehaviour
     public float jumpHeight = 1.0F;
     public float gravity = 20.0f;
     public Camera playerCamera;
-    public static int health = 5;
+    public static int health = 1;
     float rotationX = 0;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
     public float RotateSpeed = 30f;
     CharacterController characterController;
     Vector3 direction = Vector3.zero;
-    public static int ammo = 5;
-    public float bullets;
-    public GameObject bullet;
-    public GameObject barrel;
+ 
+  
     public Transform hand;
     public GameObject gun;
     public bool canshoot = true;
