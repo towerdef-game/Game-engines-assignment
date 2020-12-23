@@ -42,5 +42,15 @@ public class move_bullet : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+     void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "enemy")
+        {
+            //  other.gameObject.GetComponent<Rigidbody>
+            other.gameObject.GetComponent<enemyai>().Health = -damage;
+            Destroy(this.gameObject);
+            Debug.Log("hit");
+        }
+    }
 }
 

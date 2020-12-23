@@ -30,6 +30,7 @@ public class character_script : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        health = 1;
     }
 
     // Update is called once per frame

@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 65
+  threshold: 70
   interval: 0.3
   timeToBeat: 0.1
   resttime: 1
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 65
+  threshold: 70
   interval: 0.3
   timeToBeat: 0.1
   resttime: 1
@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf141dda94a1d7469ac678569d750dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 65
+  threshold: 75
   interval: 0.6
   timeToBeat: 0.1
   resttime: 1
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af379864e5345441b324fe27a4a82a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  threshold: 65
+  threshold: 75
   interval: 0.6
   timeToBeat: 0.1
   resttime: 1

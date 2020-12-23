@@ -118,7 +118,7 @@ MonoBehaviour:
   agent: {fileID: 6479152131371084585}
   barrel: {fileID: 7523839400254018171}
   bullet: {fileID: 5398013824253995441, guid: ab2cb3069f7630a458bdc8357404ffff, type: 3}
-  starttimebtwnshots: 2
+  starttimebtwnshots: 3
 --- !u!195 &6479152131371084585
 NavMeshAgent:
   m_ObjectHideFlags: 0

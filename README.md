@@ -3,16 +3,18 @@ Name: John Heaphey,
 Student Number D19124451,
 Class group: DT508/TU984
 
+# Discription of the project
+My porject is a first person shooter set in a procedurally generated city. The goal of the game is to survive the waves of enemies that are coming. I based the game that a virus is slowing your pc down and its up to windows defende to clean it up.
 
-# Controls
+## Controls
 | Controls | Description |
 |----------|-------------|
-| W,A,S,D  | Movement    |
+| W,A,S,D  | Move Up, Left, Down, Right   |
 | Left mouse | shoot when gun is equipped|
 | R | Drop gun |
 | Space Bar | Jump |
 
-The goal of the game is to survive the waves of enemies that are coming 
+
 
 # How it Works 
 ## city generator 
@@ -29,10 +31,15 @@ it will set these buildings in a grid similar to what it would be like in a city
 ## Audio spectrum Manager
 The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both to use the audio script follow the following steps 
 1. create an audio source and put in the audiospectrum script this will convert he music into readalbe data
-2. add either a audio syncscale or audiosync color
+2. add either a audio syncscale or audiosync color to the object you wish to affect.
+3. alter the threshold variable to make the object move more the lower the number is e.g 1,2 the more it will move from any sound he higher it gets e.g 75 the less it will move until the audio reachs or supases it.
+4. the intervial will set a type of cooldown before the next beat the higher the number the longer teh next beat will be.
 
 # References
-https://www.youtube.com/embed/PzVbaaxgPco
+1. audio spectrum tutorial I used https://www.youtube.com/embed/PzVbaaxgPco
+
+2. My Game
+https://www.youtube.com/embed/XBYpu-5F9vY
 
 # What I am most proud of
 I am most proud of is how the way the my project looks i was trying to go for a what the inside of a computer hard drive would look like taking insperation from movies like Tron and old atari games. I am also proud of the city generation script  
