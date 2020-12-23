@@ -28,6 +28,8 @@ it will set these buildings in a grid similar to what it would be like in a city
 6. with the build with noise put in the object you want your buildings to be made of and how many objects it can be made of.
 7.any difficulty implamenting please look at the scene for how i did it.
 
+![](Images/windows%20defender%202.png)
+
 ## Audio spectrum Manager
 The audio spectrum manager uses music from an audio soruce to affect either the scale of an object, the colour or both to use the audio script follow the following steps 
 1. create an audio source and put in the audiospectrum script this will convert he music into readalbe data
@@ -35,13 +37,15 @@ The audio spectrum manager uses music from an audio soruce to affect either the 
 3. alter the threshold variable to make the object move more the lower the number is e.g 1,2 the more it will move from any sound he higher it gets e.g 75 the less it will move until the audio reachs or supases it.
 4. the intervial will set a type of cooldown before the next beat the higher the number the longer teh next beat will be.
 
+![](Images/windows%20defender%201.png)
+
 # References
 1. audio spectrum tutorial I used https://www.youtube.com/embed/PzVbaaxgPco
 
 2. My Game
 https://www.youtube.com/embed/XBYpu-5F9vY
 
-![](Images/windows%20defender%201.png)
+
 
 # What I am most proud of
 I am most proud of is how the way the my project looks i was trying to go for a what the inside of a computer hard drive would look like taking insperation from movies like Tron and old atari games. I am also proud of the city generation script  
