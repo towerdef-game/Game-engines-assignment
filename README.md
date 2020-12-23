@@ -1,7 +1,7 @@
 # Windows Defender
-Name: John Heaphey,
-Student Number D19124451,
-Class group: DT508/TU984
+Name: John Heaphey <br />
+Student Number D19124451<br />
+Class group: DT508/TU984<br />
 
 # Discription of the project
 My porject is a first person shooter set in a procedurally generated city. The goal of the game is to survive the waves of enemies that are coming. I based the game that a virus is slowing your pc down and its up to windows defende to clean it up.
